@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Zygote/Indirect Event", fileName = "New Indirect Event")]
+[CreateAssetMenu(menuName = "Indirect Event", fileName = "New Indirect Event")]
 public class IndirectEvent : ScriptableObject {
 	HashSet<IndirectEventListener> listeners = new HashSet<IndirectEventListener>();
 	HashSet<IndirectEventGroupListener> listListeners = new HashSet<IndirectEventGroupListener>();
